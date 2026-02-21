@@ -1,0 +1,24 @@
+<button id="code-toggle" onclick="toggleCode()" style="
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 9999;
+  background: #2c3e50;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 13px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+">Show Code</button>
+
+<script>
+  let codeVisible = false;
+  function toggleCode() {
+    const details = document.querySelectorAll('details.code-fold');
+    codeVisible = !codeVisible;
+    details.forEach(d => d.open = codeVisible);
+    document.getElementById('code-toggle').textContent = codeVisible ? 'Hide Code' : 'Show Code';
+  }
+</script>

@@ -59,18 +59,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </style>
 
 
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" integrity="sha384-ZvpUoO/+PpLXR1lu4jmpXWu80pZlYUAfxl5NsBMWOEPSjUn/6Z/hRTt8+pR6L4N2" crossorigin="anonymous"></script><script src="Airbnb_law_Effect_files/libs/clipboard/clipboard.min.js"></script>
-<script src="Airbnb_law_Effect_files/libs/quarto-html/quarto.js" type="module"></script>
-<script src="Airbnb_law_Effect_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="Airbnb_law_Effect_files/libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="Airbnb_law_Effect_files/libs/quarto-html/popper.min.js"></script>
-<script src="Airbnb_law_Effect_files/libs/quarto-html/tippy.umd.min.js"></script>
-<script src="Airbnb_law_Effect_files/libs/quarto-html/anchor.min.js"></script>
-<link href="Airbnb_law_Effect_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="Airbnb_law_Effect_files/libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="Airbnb_law_Effect_files/libs/bootstrap/bootstrap.min.js"></script>
-<link href="Airbnb_law_Effect_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="Airbnb_law_Effect_files/libs/bootstrap/bootstrap-4d7f0bce1131f3e5f9547cd857cfbfc8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" integrity="sha384-ZvpUoO/+PpLXR1lu4jmpXWu80pZlYUAfxl5NsBMWOEPSjUn/6Z/hRTt8+pR6L4N2" crossorigin="anonymous"></script><script src="Airbnb_Law_Effect_files/libs/clipboard/clipboard.min.js"></script>
+<script src="Airbnb_Law_Effect_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="Airbnb_Law_Effect_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="Airbnb_Law_Effect_files/libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="Airbnb_Law_Effect_files/libs/quarto-html/popper.min.js"></script>
+<script src="Airbnb_Law_Effect_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="Airbnb_Law_Effect_files/libs/quarto-html/anchor.min.js"></script>
+<link href="Airbnb_Law_Effect_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="Airbnb_Law_Effect_files/libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="Airbnb_Law_Effect_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="Airbnb_Law_Effect_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="Airbnb_Law_Effect_files/libs/bootstrap/bootstrap-4d7f0bce1131f3e5f9547cd857cfbfc8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <style>html{ scroll-behavior: smooth; }</style>
 <script src="https://cdn.jsdelivr.net/npm/requirejs@2.3.6/require.min.js" integrity="sha384-c9c+LnTbwQ3aujuU7ULEPVvgLs+Fn6fJUvIGTsuu1ZcCf11fiEubah0ttpca4ntM sha384-6V1/AdqZRWk1KAlWbKBlGhN7VG4iE/yAZcO6NZPMF8od0vukrvr0tg4qY6NSrItx" crossorigin="anonymous"></script>
 
@@ -118,7 +118,11 @@ window.Quarto = {
   <ul>
   <li><a href="#does-restricting-airbnb-lower-rents-estimating-effects-from-nycs-local-law-18" id="toc-does-restricting-airbnb-lower-rents-estimating-effects-from-nycs-local-law-18" class="nav-link active" data-scroll-target="#does-restricting-airbnb-lower-rents-estimating-effects-from-nycs-local-law-18">Does Restricting Airbnb Lower Rents? Estimating Effects from NYC’s Local Law 18</a>
   <ul class="collapse">
-  <li><a href="#i.-introduction" id="toc-i.-introduction" class="nav-link" data-scroll-target="#i.-introduction">I. Introduction</a></li>
+  <li><a href="#i.-introduction" id="toc-i.-introduction" class="nav-link" data-scroll-target="#i.-introduction">I. Introduction</a>
+  <ul class="collapse">
+  <li><a href="#a.-background-on-local-law-18" id="toc-a.-background-on-local-law-18" class="nav-link" data-scroll-target="#a.-background-on-local-law-18">A. Background on Local Law 18</a></li>
+  <li><a href="#b.-findings-at-a-glance" id="toc-b.-findings-at-a-glance" class="nav-link" data-scroll-target="#b.-findings-at-a-glance">B. Findings at a Glance</a></li>
+  </ul></li>
   <li><a href="#ii.-data" id="toc-ii.-data" class="nav-link" data-scroll-target="#ii.-data">II. Data</a>
   <ul class="collapse">
   <li><a href="#a.-data-origins" id="toc-a.-data-origins" class="nav-link" data-scroll-target="#a.-data-origins">A. Data Origins</a></li>
@@ -153,14 +157,14 @@ window.Quarto = {
   </ul></li>
   <li><a href="#viii.-robustness-checks" id="toc-viii.-robustness-checks" class="nav-link" data-scroll-target="#viii.-robustness-checks">VIII. Robustness Checks</a>
   <ul class="collapse">
-  <li><a href="#a.-re-placebo-testif-our-trend-correction-worked-the-model-should-now-fail-to-detect-the-fake-2019-law-that-tripped-it-up-before.-a-pass-here-validates-the-correction." id="toc-a.-re-placebo-testif-our-trend-correction-worked-the-model-should-now-fail-to-detect-the-fake-2019-law-that-tripped-it-up-before.-a-pass-here-validates-the-correction." class="nav-link" data-scroll-target="#a.-re-placebo-testif-our-trend-correction-worked-the-model-should-now-fail-to-detect-the-fake-2019-law-that-tripped-it-up-before.-a-pass-here-validates-the-correction.">A. Re-Placebo TestIf our trend correction worked, the model should now fail to detect the fake 2019 law that tripped it up before. A pass here validates the correction.</a></li>
-  <li><a href="#b.-outlier-sensitivity-checkdue-to-new-yorks-concentration-of-airbnb-activity-its-wise-to-see-what-changes-occur-when-excluding-the-zip-codes-with-the-highest-airbnb-intensity.-i-will-drop-each-of-the-top-three-zip-codes-individually-to-see-if-the-coefficient-holds." id="toc-b.-outlier-sensitivity-checkdue-to-new-yorks-concentration-of-airbnb-activity-its-wise-to-see-what-changes-occur-when-excluding-the-zip-codes-with-the-highest-airbnb-intensity.-i-will-drop-each-of-the-top-three-zip-codes-individually-to-see-if-the-coefficient-holds." class="nav-link" data-scroll-target="#b.-outlier-sensitivity-checkdue-to-new-yorks-concentration-of-airbnb-activity-its-wise-to-see-what-changes-occur-when-excluding-the-zip-codes-with-the-highest-airbnb-intensity.-i-will-drop-each-of-the-top-three-zip-codes-individually-to-see-if-the-coefficient-holds.">B. Outlier Sensitivity CheckDue to New York’s concentration of Airbnb activity, its wise to see what changes occur when excluding the zip codes with the highest airbnb intensity. I will drop each of the top three zip codes individually to see if the coefficient holds.</a></li>
+  <li><a href="#a.-re-placebo-test" id="toc-a.-re-placebo-test" class="nav-link" data-scroll-target="#a.-re-placebo-test">A. Re-Placebo Test</a></li>
+  <li><a href="#b.-outlier-sensitivity-check" id="toc-b.-outlier-sensitivity-check" class="nav-link" data-scroll-target="#b.-outlier-sensitivity-check">B. Outlier Sensitivity Check</a></li>
   </ul></li>
   <li><a href="#ix.-final-results-conclusion" id="toc-ix.-final-results-conclusion" class="nav-link" data-scroll-target="#ix.-final-results-conclusion">IX. Final Results &amp; Conclusion</a>
   <ul class="collapse">
-  <li><a href="#a.-case-study-williamsburg-zip-11211to-put-a-dollar-figure-on-the-effect-i-plotted-the-corrected-models-fitted-rent-trajectory-against-the-counterfactual-what-the-model-predicts-rents-would-have-been-in-zip-11211-had-the-law-never-passed.-williamsburg-is-the-highest-intensity-zip-in-our-sample-12.8-active-listings-per-1000-units-making-the-estimated-effect-largest-and-most-visible-there." id="toc-a.-case-study-williamsburg-zip-11211to-put-a-dollar-figure-on-the-effect-i-plotted-the-corrected-models-fitted-rent-trajectory-against-the-counterfactual-what-the-model-predicts-rents-would-have-been-in-zip-11211-had-the-law-never-passed.-williamsburg-is-the-highest-intensity-zip-in-our-sample-12.8-active-listings-per-1000-units-making-the-estimated-effect-largest-and-most-visible-there." class="nav-link" data-scroll-target="#a.-case-study-williamsburg-zip-11211to-put-a-dollar-figure-on-the-effect-i-plotted-the-corrected-models-fitted-rent-trajectory-against-the-counterfactual-what-the-model-predicts-rents-would-have-been-in-zip-11211-had-the-law-never-passed.-williamsburg-is-the-highest-intensity-zip-in-our-sample-12.8-active-listings-per-1000-units-making-the-estimated-effect-largest-and-most-visible-there.">A. Case Study: Williamsburg (Zip 11211)To put a dollar figure on the effect, I plotted the corrected model’s fitted rent trajectory against the counterfactual — what the model predicts rents would have been in zip 11211 had the law never passed. Williamsburg is the highest-intensity zip in our sample (12.8 active listings per 1,000 units), making the estimated effect largest and most visible there.</a></li>
-  <li><a href="#b.-city-wide-estimated-rent-savingsthe-williamsburg-case-study-shows-the-largest-possible-effect-in-our-sample.-to-see-how-that-effect-varies-across-the-city-i-applied-the-corrected-model-coefficient-to-each-zip-codes-airbnb-intensity-score-and-see-the-implied-monthly-savings-relative-to-the-counterfactual.-zip-codes-with-low-airbnb-intensity-will-show-near-zero-savings-while-the-high-intensity-clusters-in-manhattan-and-north-brooklyn-should-see-the-largest-effects.-closely-mirroring-the-heat-map-seen-in-iii-b.-2." id="toc-b.-city-wide-estimated-rent-savingsthe-williamsburg-case-study-shows-the-largest-possible-effect-in-our-sample.-to-see-how-that-effect-varies-across-the-city-i-applied-the-corrected-model-coefficient-to-each-zip-codes-airbnb-intensity-score-and-see-the-implied-monthly-savings-relative-to-the-counterfactual.-zip-codes-with-low-airbnb-intensity-will-show-near-zero-savings-while-the-high-intensity-clusters-in-manhattan-and-north-brooklyn-should-see-the-largest-effects.-closely-mirroring-the-heat-map-seen-in-iii-b.-2." class="nav-link" data-scroll-target="#b.-city-wide-estimated-rent-savingsthe-williamsburg-case-study-shows-the-largest-possible-effect-in-our-sample.-to-see-how-that-effect-varies-across-the-city-i-applied-the-corrected-model-coefficient-to-each-zip-codes-airbnb-intensity-score-and-see-the-implied-monthly-savings-relative-to-the-counterfactual.-zip-codes-with-low-airbnb-intensity-will-show-near-zero-savings-while-the-high-intensity-clusters-in-manhattan-and-north-brooklyn-should-see-the-largest-effects.-closely-mirroring-the-heat-map-seen-in-iii-b.-2.">B. City-Wide Estimated Rent SavingsThe Williamsburg case study shows the largest possible effect in our sample. To see how that effect varies across the city, I applied the corrected model coefficient to each zip code’s Airbnb intensity score and see the implied monthly savings relative to the counterfactual. Zip codes with low Airbnb intensity will show near-zero savings, while the high-intensity clusters in Manhattan and North Brooklyn should see the largest effects. Closely mirroring the heat map seen in III B. 2.</a></li>
-  <li><a href="#c.-conclusionthis-study-set-out-to-estimate-whether-nycs-local-law-18-an-effective-airbnb-ban-that-had-a-sizeable-impact-on-nyc-airbnb-rental-supply-had-a-measurable-effect-on-rent-prices-across-the-citys-zip-codes.-an-initial-two-way-fixed-effects-model-found-no-significant-relationship-p0.23-but-with-further-testing-a-violation-of-the-parallel-trends-assumption-revealed-itself.-zip-codes-with-higher-concentrations-of-airbnbs-were-already-becoming-more-expensive-at-a-faster-rate-than-other-zip-codes-affecting-our-models-ability-to-capture-the-effect-of-the-law-change.-to-fix-this-issue-i-introduced-a-group-specific-linear-time-trend-to-absorb-divergent-trajectories-which-led-to-my-model-to-identify-a-highly-significant-effect-p0.001.-this-was-confirmed-with-a-placebo-test-p0.077-as-well-as-an-outlier-sensitivity-test-showing-a-max-coefficient-shift-of-2.4.-my-end-result-suggests-local-law-18-acted-as-a-brake-for-rent-growth-reducing-rents-by-approximately-0.5-per-unit-of-airbnb-intensity-relative-to-the-counterfactual-trend.-in-other-words-the-model-suggests-that-local-law-18-is-responsible-for-a-median-monthly-rent-decrease-of-sim50-across-all-82-zip-codes-tested-with-some-estimated-zip-code-monthly-savings-as-high-as-sim300." id="toc-c.-conclusionthis-study-set-out-to-estimate-whether-nycs-local-law-18-an-effective-airbnb-ban-that-had-a-sizeable-impact-on-nyc-airbnb-rental-supply-had-a-measurable-effect-on-rent-prices-across-the-citys-zip-codes.-an-initial-two-way-fixed-effects-model-found-no-significant-relationship-p0.23-but-with-further-testing-a-violation-of-the-parallel-trends-assumption-revealed-itself.-zip-codes-with-higher-concentrations-of-airbnbs-were-already-becoming-more-expensive-at-a-faster-rate-than-other-zip-codes-affecting-our-models-ability-to-capture-the-effect-of-the-law-change.-to-fix-this-issue-i-introduced-a-group-specific-linear-time-trend-to-absorb-divergent-trajectories-which-led-to-my-model-to-identify-a-highly-significant-effect-p0.001.-this-was-confirmed-with-a-placebo-test-p0.077-as-well-as-an-outlier-sensitivity-test-showing-a-max-coefficient-shift-of-2.4.-my-end-result-suggests-local-law-18-acted-as-a-brake-for-rent-growth-reducing-rents-by-approximately-0.5-per-unit-of-airbnb-intensity-relative-to-the-counterfactual-trend.-in-other-words-the-model-suggests-that-local-law-18-is-responsible-for-a-median-monthly-rent-decrease-of-sim50-across-all-82-zip-codes-tested-with-some-estimated-zip-code-monthly-savings-as-high-as-sim300." class="nav-link" data-scroll-target="#c.-conclusionthis-study-set-out-to-estimate-whether-nycs-local-law-18-an-effective-airbnb-ban-that-had-a-sizeable-impact-on-nyc-airbnb-rental-supply-had-a-measurable-effect-on-rent-prices-across-the-citys-zip-codes.-an-initial-two-way-fixed-effects-model-found-no-significant-relationship-p0.23-but-with-further-testing-a-violation-of-the-parallel-trends-assumption-revealed-itself.-zip-codes-with-higher-concentrations-of-airbnbs-were-already-becoming-more-expensive-at-a-faster-rate-than-other-zip-codes-affecting-our-models-ability-to-capture-the-effect-of-the-law-change.-to-fix-this-issue-i-introduced-a-group-specific-linear-time-trend-to-absorb-divergent-trajectories-which-led-to-my-model-to-identify-a-highly-significant-effect-p0.001.-this-was-confirmed-with-a-placebo-test-p0.077-as-well-as-an-outlier-sensitivity-test-showing-a-max-coefficient-shift-of-2.4.-my-end-result-suggests-local-law-18-acted-as-a-brake-for-rent-growth-reducing-rents-by-approximately-0.5-per-unit-of-airbnb-intensity-relative-to-the-counterfactual-trend.-in-other-words-the-model-suggests-that-local-law-18-is-responsible-for-a-median-monthly-rent-decrease-of-sim50-across-all-82-zip-codes-tested-with-some-estimated-zip-code-monthly-savings-as-high-as-sim300.">C. ConclusionThis study set out to estimate whether NYC’s Local Law 18, an effective airbnb ban that had a sizeable impact on NYC airbnb rental supply, had a measurable effect on rent prices across the city’s zip codes. An initial Two-Way Fixed Effects model found no significant relationship (<span class="math inline">\(p=0.23\)</span>), but with further testing a violation of the parallel trends assumption revealed itself. Zip codes with higher concentrations of Airbnb’s were already becoming more expensive at a faster rate than other zip codes, affecting our model’s ability to capture the effect of the law change. To fix this issue I introduced a group-specific linear time trend to absorb divergent trajectories which led to my model to identify a highly significant effect (<span class="math inline">\(p&lt;0.001\)</span>). This was confirmed with a placebo test (<span class="math inline">\(p=0.077\)</span>), as well as an outlier sensitivity test showing a max coefficient shift of <span class="math inline">\(2.4\%\)</span>. My end result suggests Local Law 18 acted as a brake for rent growth, reducing rents by approximately <strong>0.5% per unit of Airbnb intensity</strong> relative to the counterfactual trend. In other words, the model suggests that Local Law 18 is responsible for a median monthly rent decrease of <span class="math inline">\(\sim\$50\)</span> across all 82 zip codes tested, with some estimated zip code monthly savings as high as <span class="math inline">\(\sim\$300\)</span>.</a></li>
+  <li><a href="#a.-case-study-williamsburg-zip-11211" id="toc-a.-case-study-williamsburg-zip-11211" class="nav-link" data-scroll-target="#a.-case-study-williamsburg-zip-11211">A. Case Study: Williamsburg (Zip 11211)</a></li>
+  <li><a href="#b.-city-wide-estimated-rent-savings" id="toc-b.-city-wide-estimated-rent-savings" class="nav-link" data-scroll-target="#b.-city-wide-estimated-rent-savings">B. City-Wide Estimated Rent Savings</a></li>
+  <li><a href="#c.-conclusion" id="toc-c.-conclusion" class="nav-link" data-scroll-target="#c.-conclusion">C. Conclusion</a></li>
   </ul></li>
   </ul></li>
   </ul>
@@ -195,12 +199,20 @@ window.Quarto = {
 </header>
 
 
-<p>—title: “Does Restricting Airbnb Lower Rents? Estimating Effects from NYC’s Local Law 18”author: “John Scheble”format: html: toc: true toc-location: left toc-depth: 3 code-fold: true theme: cosmo smooth-scroll: true number-sections: false include-after-body: toggle_button.html—</p>
 <section id="does-restricting-airbnb-lower-rents-estimating-effects-from-nycs-local-law-18" class="level1">
 <h1>Does Restricting Airbnb Lower Rents? Estimating Effects from NYC’s Local Law 18</h1>
 <section id="i.-introduction" class="level2">
 <h2 class="anchored" data-anchor-id="i.-introduction">I. Introduction</h2>
-<p>New York City’s housing market has faced a prolonged affordability crisis, with median rents rising sharply over the past decade and rental vacancy rates hovering near historic lows. One frequently cited reason for this pressure is the rapid growth of short-term rental platforms like Airbnb, which critics argue pull units out of the long-term rental market and drive up rents for permanent residents. This study attempts to quantify that relationship by evaluating whether the enforcement of Local Law 18, NYC’s landmark short-term rental regulation, had a measurable dampening effect on rent prices across the city’s zip codes.### A. Background on Local Law 18Local Law 18 was passed by the NYC City Council in January 2022 and signed into law shortly after. Enforcement began on September 5, 2023, making New York City one of the strictest short-term rental markets in the world. The law requires all short-term rental hosts to register with the Mayor’s Office of Special Enforcement, mandates that the host be physically present during any guest stay, and caps occupancy at two guests per rental. In practice, these requirements effectively banned the main Airbnb model, where hosts rent out an entire apartment while away. This method had been the dominant listing type in NYC. Prior to enforcement, estimates suggested roughly 10,000–15,000 NYC apartments were being operated as de facto hotels on short-term rental platforms. Proponents of the law argued that returning these units to the long-term rental market would meaningfully ease housing supply constraints and slow rent growth, particularly in high-density neighborhoods like lower Manhattan and North Brooklyn where Airbnb activity was most concentrated.### B. Findings at a GlanceThis study utilizes a panel dataset of Zillow Rent Index (ZRI) and Inside Airbnb listing volume across 82 NYC zip codes to evaluate the efficacy of Local Law 18. An initial Two-Way Fixed Effects (TWFE) model found no significant relationship between Airbnb intensity and rent prices (<span class="math inline">\(p=0.23\)</span>). However, diagnostic testing indicated a violation of the Parallel Trends assumption (<span class="math inline">\(p=0.02\)</span> in Placebo Test), driven by differential gentrification rates in treatment zones. After correcting for these time-varying confounders using a group-specific linear time trend, the model identified a highly significant negative effect (<span class="math inline">\(p&lt;0.001\)</span>). The results suggest the policy acted as a price stabilizer, reducing rent growth by approximately 0.5% for every unit of Airbnb intensity relative to the counterfactual trend.</p>
+<p>New York City’s housing market has faced a prolonged affordability crisis, with median rents rising sharply over the past decade and rental vacancy rates hovering near historic lows. One frequently cited reason for this pressure is the rapid growth of short-term rental platforms like Airbnb, which critics argue pull units out of the long-term rental market and drive up rents for permanent residents. This study attempts to quantify that relationship by evaluating whether the enforcement of Local Law 18, NYC’s landmark short-term rental regulation, had a measurable dampening effect on rent prices across the city’s zip codes.</p>
+<section id="a.-background-on-local-law-18" class="level3">
+<h3 class="anchored" data-anchor-id="a.-background-on-local-law-18">A. Background on Local Law 18</h3>
+<p>Local Law 18 was passed by the NYC City Council in January 2022 and signed into law shortly after. Enforcement began on September 5, 2023, making New York City one of the strictest short-term rental markets in the world. The law requires all short-term rental hosts to register with the Mayor’s Office of Special Enforcement, mandates that the host be physically present during any guest stay, and caps occupancy at two guests per rental.</p>
+<p>In practice, these requirements effectively banned the main Airbnb model, where hosts rent out an entire apartment while away. This method had been the dominant listing type in NYC. Prior to enforcement, estimates suggested roughly 10,000–15,000 NYC apartments were being operated as de facto hotels on short-term rental platforms. Proponents of the law argued that returning these units to the long-term rental market would meaningfully ease housing supply constraints and slow rent growth, particularly in high-density neighborhoods like lower Manhattan and North Brooklyn where Airbnb activity was most concentrated.</p>
+</section>
+<section id="b.-findings-at-a-glance" class="level3">
+<h3 class="anchored" data-anchor-id="b.-findings-at-a-glance">B. Findings at a Glance</h3>
+<p>This study utilizes a panel dataset of Zillow Rent Index (ZRI) and Inside Airbnb listing volume across 82 NYC zip codes to evaluate the efficacy of Local Law 18. An initial Two-Way Fixed Effects (TWFE) model found no significant relationship between Airbnb intensity and rent prices (<span class="math inline">\(p=0.23\)</span>). However, diagnostic testing indicated a violation of the Parallel Trends assumption (<span class="math inline">\(p=0.02\)</span> in Placebo Test), driven by differential gentrification rates in treatment zones. After correcting for these time-varying confounders using a group-specific linear time trend, the model identified a highly significant negative effect (<span class="math inline">\(p&lt;0.001\)</span>). The results suggest the policy acted as a price stabilizer, reducing rent growth by approximately 0.5% for every unit of Airbnb intensity relative to the counterfactual trend.</p>
+</section>
 </section>
 <section id="ii.-data" class="level2">
 <h2 class="anchored" data-anchor-id="ii.-data">II. Data</h2>
@@ -303,7 +315,7 @@ window.Quarto = {
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="Airbnb_law_Effect_files/figure-html/cell-7-output-1.png" class="img-fluid figure-img"></p>
+<p><img src="Airbnb_Law_Effect_files/figure-html/cell-7-output-1.png" class="img-fluid figure-img"></p>
 </figure>
 </div>
 </div>
@@ -569,7 +581,7 @@ Table&nbsp;1: Year-Over-Year Review Changes (September Only)
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="Airbnb_law_Effect_files/figure-html/cell-11-output-1.png" class="img-fluid figure-img"></p>
+<p><img src="Airbnb_Law_Effect_files/figure-html/cell-11-output-1.png" class="img-fluid figure-img"></p>
 </figure>
 </div>
 </div>
@@ -678,7 +690,7 @@ Table&nbsp;1: Year-Over-Year Review Changes (September Only)
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="Airbnb_law_Effect_files/figure-html/cell-16-output-1.png" class="img-fluid figure-img"></p>
+<p><img src="Airbnb_Law_Effect_files/figure-html/cell-16-output-1.png" class="img-fluid figure-img"></p>
 </figure>
 </div>
 </div>
@@ -894,7 +906,7 @@ Table&nbsp;2: Active Listings Data Validation (Past Year to Dec 2025)
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="Airbnb_law_Effect_files/figure-html/cell-20-output-1.png" class="img-fluid figure-img"></p>
+<p><img src="Airbnb_Law_Effect_files/figure-html/cell-20-output-1.png" class="img-fluid figure-img"></p>
 </figure>
 </div>
 </div>
@@ -1035,7 +1047,7 @@ Name: airbnb_intensity, dtype: float64</code></pre>
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="Airbnb_law_Effect_files/figure-html/cell-22-output-2.png" class="img-fluid figure-img"></p>
+<p><img src="Airbnb_Law_Effect_files/figure-html/cell-22-output-2.png" class="img-fluid figure-img"></p>
 </figure>
 </div>
 </div>
@@ -1363,7 +1375,7 @@ Highest Intensity Survivors (Treatment Group):
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="Airbnb_law_Effect_files/figure-html/cell-32-output-1.png" class="img-fluid figure-img"></p>
+<p><img src="Airbnb_Law_Effect_files/figure-html/cell-32-output-1.png" class="img-fluid figure-img"></p>
 </figure>
 </div>
 </div>
@@ -1565,8 +1577,9 @@ c:\Users\13124\AppData\Local\Programs\Python\Python313\Lib\site-packages\statsmo
 <li>Verifying the time-trend fix actually eliminated the bias</li>
 <li>Confirming the result isn’t driven by a few highly concentrated zips.</li>
 </ol>
-<section id="a.-re-placebo-testif-our-trend-correction-worked-the-model-should-now-fail-to-detect-the-fake-2019-law-that-tripped-it-up-before.-a-pass-here-validates-the-correction." class="level3">
-<h3 class="anchored" data-anchor-id="a.-re-placebo-testif-our-trend-correction-worked-the-model-should-now-fail-to-detect-the-fake-2019-law-that-tripped-it-up-before.-a-pass-here-validates-the-correction.">A. Re-Placebo TestIf our trend correction worked, the model should now fail to detect the fake 2019 law that tripped it up before. A pass here validates the correction.</h3>
+<section id="a.-re-placebo-test" class="level3">
+<h3 class="anchored" data-anchor-id="a.-re-placebo-test">A. Re-Placebo Test</h3>
+<p>If our trend correction worked, the model should now fail to detect the fake 2019 law that tripped it up before. A pass here validates the correction.</p>
 <div id="1b1f294a" class="cell" data-execution_count="37">
 <details class="code-fold">
 <summary>Code</summary>
@@ -1589,8 +1602,9 @@ c:\Users\13124\AppData\Local\Programs\Python\Python313\Lib\site-packages\statsmo
 </div>
 <p>After running our placebo test again I found that our model no longer hallucinates an effect, confirming the time-trend interaction successfully absorbed the divergent gentrification trends. In other words, our model seems to have now passed the placebo test.</p>
 </section>
-<section id="b.-outlier-sensitivity-checkdue-to-new-yorks-concentration-of-airbnb-activity-its-wise-to-see-what-changes-occur-when-excluding-the-zip-codes-with-the-highest-airbnb-intensity.-i-will-drop-each-of-the-top-three-zip-codes-individually-to-see-if-the-coefficient-holds." class="level3">
-<h3 class="anchored" data-anchor-id="b.-outlier-sensitivity-checkdue-to-new-yorks-concentration-of-airbnb-activity-its-wise-to-see-what-changes-occur-when-excluding-the-zip-codes-with-the-highest-airbnb-intensity.-i-will-drop-each-of-the-top-three-zip-codes-individually-to-see-if-the-coefficient-holds.">B. Outlier Sensitivity CheckDue to New York’s concentration of Airbnb activity, its wise to see what changes occur when excluding the zip codes with the highest airbnb intensity. I will drop each of the top three zip codes individually to see if the coefficient holds.</h3>
+<section id="b.-outlier-sensitivity-check" class="level3">
+<h3 class="anchored" data-anchor-id="b.-outlier-sensitivity-check">B. Outlier Sensitivity Check</h3>
+<p>Due to New York’s concentration of Airbnb activity, its wise to see what changes occur when excluding the zip codes with the highest airbnb intensity. I will drop each of the top three zip codes individually to see if the coefficient holds.</p>
 <div id="1add800b" class="cell" data-execution_count="38">
 <details class="code-fold">
 <summary>Code</summary>
@@ -1632,8 +1646,9 @@ Drop 10018   — Coef: -0.00497  p=0.000  Change: +1.0%</code></pre>
 <span id="cb51-4"><a href="#cb51-4" aria-hidden="true" tabindex="-1"></a>target_intensity <span class="op">=</span> top_zip_row[<span class="st">'airbnb_intensity'</span>]</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 </div>
-<section id="a.-case-study-williamsburg-zip-11211to-put-a-dollar-figure-on-the-effect-i-plotted-the-corrected-models-fitted-rent-trajectory-against-the-counterfactual-what-the-model-predicts-rents-would-have-been-in-zip-11211-had-the-law-never-passed.-williamsburg-is-the-highest-intensity-zip-in-our-sample-12.8-active-listings-per-1000-units-making-the-estimated-effect-largest-and-most-visible-there." class="level3">
-<h3 class="anchored" data-anchor-id="a.-case-study-williamsburg-zip-11211to-put-a-dollar-figure-on-the-effect-i-plotted-the-corrected-models-fitted-rent-trajectory-against-the-counterfactual-what-the-model-predicts-rents-would-have-been-in-zip-11211-had-the-law-never-passed.-williamsburg-is-the-highest-intensity-zip-in-our-sample-12.8-active-listings-per-1000-units-making-the-estimated-effect-largest-and-most-visible-there.">A. Case Study: Williamsburg (Zip 11211)To put a dollar figure on the effect, I plotted the corrected model’s fitted rent trajectory against the counterfactual — what the model predicts rents would have been in zip 11211 had the law never passed. Williamsburg is the highest-intensity zip in our sample (12.8 active listings per 1,000 units), making the estimated effect largest and most visible there.</h3>
+<section id="a.-case-study-williamsburg-zip-11211" class="level3">
+<h3 class="anchored" data-anchor-id="a.-case-study-williamsburg-zip-11211">A. Case Study: Williamsburg (Zip 11211)</h3>
+<p>To put a dollar figure on the effect, I plotted the corrected model’s fitted rent trajectory against the counterfactual — what the model predicts rents would have been in zip 11211 had the law never passed. Williamsburg is the highest-intensity zip in our sample (12.8 active listings per 1,000 units), making the estimated effect largest and most visible there.</p>
 <div id="d5638582" class="cell" data-execution_count="40">
 <details class="code-fold">
 <summary>Code</summary>
@@ -1692,15 +1707,16 @@ Drop 10018   — Coef: -0.00497  p=0.000  Change: +1.0%</code></pre>
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="Airbnb_law_Effect_files/figure-html/cell-42-output-1.png" class="img-fluid figure-img"></p>
+<p><img src="Airbnb_Law_Effect_files/figure-html/cell-42-output-1.png" class="img-fluid figure-img"></p>
 </figure>
 </div>
 </div>
 </div>
 <p>The green shaded region shows the gap between the estimated rent trajectory under Local Law 18 and what the model projects rents would have been without it. The gap widens gradually after September 2023 as the policy effect compounds over time. I projected what rents would look like without Local Law 18, and therefore the estimated savings, by applying our model’s coefficient to zip 11211’s high intensity score of 12.8 listings per 1000 units.</p>
 </section>
-<section id="b.-city-wide-estimated-rent-savingsthe-williamsburg-case-study-shows-the-largest-possible-effect-in-our-sample.-to-see-how-that-effect-varies-across-the-city-i-applied-the-corrected-model-coefficient-to-each-zip-codes-airbnb-intensity-score-and-see-the-implied-monthly-savings-relative-to-the-counterfactual.-zip-codes-with-low-airbnb-intensity-will-show-near-zero-savings-while-the-high-intensity-clusters-in-manhattan-and-north-brooklyn-should-see-the-largest-effects.-closely-mirroring-the-heat-map-seen-in-iii-b.-2." class="level3">
-<h3 class="anchored" data-anchor-id="b.-city-wide-estimated-rent-savingsthe-williamsburg-case-study-shows-the-largest-possible-effect-in-our-sample.-to-see-how-that-effect-varies-across-the-city-i-applied-the-corrected-model-coefficient-to-each-zip-codes-airbnb-intensity-score-and-see-the-implied-monthly-savings-relative-to-the-counterfactual.-zip-codes-with-low-airbnb-intensity-will-show-near-zero-savings-while-the-high-intensity-clusters-in-manhattan-and-north-brooklyn-should-see-the-largest-effects.-closely-mirroring-the-heat-map-seen-in-iii-b.-2.">B. City-Wide Estimated Rent SavingsThe Williamsburg case study shows the largest possible effect in our sample. To see how that effect varies across the city, I applied the corrected model coefficient to each zip code’s Airbnb intensity score and see the implied monthly savings relative to the counterfactual. Zip codes with low Airbnb intensity will show near-zero savings, while the high-intensity clusters in Manhattan and North Brooklyn should see the largest effects. Closely mirroring the heat map seen in III B. 2.</h3>
+<section id="b.-city-wide-estimated-rent-savings" class="level3">
+<h3 class="anchored" data-anchor-id="b.-city-wide-estimated-rent-savings">B. City-Wide Estimated Rent Savings</h3>
+<p>The Williamsburg case study shows the largest possible effect in our sample. To see how that effect varies across the city, I applied the corrected model coefficient to each zip code’s Airbnb intensity score and see the implied monthly savings relative to the counterfactual. Zip codes with low Airbnb intensity will show near-zero savings, while the high-intensity clusters in Manhattan and North Brooklyn should see the largest effects. Closely mirroring the heat map seen in III B. 2.</p>
 <div id="5o7qk1h9tla" class="cell" data-execution_count="42">
 <details class="code-fold">
 <summary>Code</summary>
@@ -1742,7 +1758,7 @@ Drop 10018   — Coef: -0.00497  p=0.000  Change: +1.0%</code></pre>
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="Airbnb_law_Effect_files/figure-html/cell-43-output-1.png" class="img-fluid figure-img"></p>
+<p><img src="Airbnb_Law_Effect_files/figure-html/cell-43-output-1.png" class="img-fluid figure-img"></p>
 </figure>
 </div>
 </div>
@@ -1754,8 +1770,9 @@ Max estimated monthly savings:    $297.87  (zip 11211)</code></pre>
 <p>The map confirms that the estimated savings are geographically concentrated exactly where you would expect: the highest-density Airbnb corridors in lower Manhattan and North Brooklyn. Zip codes where there wasn’t much Airbnb activity to begin with saw little to no change at all.</p>
 <p><strong>Limitations.</strong> Several caveats apply to these estimates. First, this model assumes a linear relationship between intensity and rent. This may be a simplification that could understate effects in hyper-concentrated zip codes. Second, I estimated Airbnb activity proxy (review counts) undercounts active listings by roughly 2.7%, introducing a small downward bias on the intensity variable. Third, the analysis covers only the 82 zip codes with sufficient Zillow rent data. Some of the zip codes excluded due to lack of data tend to be lower-income, outer-borough areas where the law’s effects may differ. Finally, our data runs through December 2025, capturing only ~27 months of post-enforcement data. To see if this detected stabilizing effect persists or fades as the market adjusts, a longer panel will be needed.</p>
 </section>
-<section id="c.-conclusionthis-study-set-out-to-estimate-whether-nycs-local-law-18-an-effective-airbnb-ban-that-had-a-sizeable-impact-on-nyc-airbnb-rental-supply-had-a-measurable-effect-on-rent-prices-across-the-citys-zip-codes.-an-initial-two-way-fixed-effects-model-found-no-significant-relationship-p0.23-but-with-further-testing-a-violation-of-the-parallel-trends-assumption-revealed-itself.-zip-codes-with-higher-concentrations-of-airbnbs-were-already-becoming-more-expensive-at-a-faster-rate-than-other-zip-codes-affecting-our-models-ability-to-capture-the-effect-of-the-law-change.-to-fix-this-issue-i-introduced-a-group-specific-linear-time-trend-to-absorb-divergent-trajectories-which-led-to-my-model-to-identify-a-highly-significant-effect-p0.001.-this-was-confirmed-with-a-placebo-test-p0.077-as-well-as-an-outlier-sensitivity-test-showing-a-max-coefficient-shift-of-2.4.-my-end-result-suggests-local-law-18-acted-as-a-brake-for-rent-growth-reducing-rents-by-approximately-0.5-per-unit-of-airbnb-intensity-relative-to-the-counterfactual-trend.-in-other-words-the-model-suggests-that-local-law-18-is-responsible-for-a-median-monthly-rent-decrease-of-sim50-across-all-82-zip-codes-tested-with-some-estimated-zip-code-monthly-savings-as-high-as-sim300." class="level3">
-<h3 class="anchored" data-anchor-id="c.-conclusionthis-study-set-out-to-estimate-whether-nycs-local-law-18-an-effective-airbnb-ban-that-had-a-sizeable-impact-on-nyc-airbnb-rental-supply-had-a-measurable-effect-on-rent-prices-across-the-citys-zip-codes.-an-initial-two-way-fixed-effects-model-found-no-significant-relationship-p0.23-but-with-further-testing-a-violation-of-the-parallel-trends-assumption-revealed-itself.-zip-codes-with-higher-concentrations-of-airbnbs-were-already-becoming-more-expensive-at-a-faster-rate-than-other-zip-codes-affecting-our-models-ability-to-capture-the-effect-of-the-law-change.-to-fix-this-issue-i-introduced-a-group-specific-linear-time-trend-to-absorb-divergent-trajectories-which-led-to-my-model-to-identify-a-highly-significant-effect-p0.001.-this-was-confirmed-with-a-placebo-test-p0.077-as-well-as-an-outlier-sensitivity-test-showing-a-max-coefficient-shift-of-2.4.-my-end-result-suggests-local-law-18-acted-as-a-brake-for-rent-growth-reducing-rents-by-approximately-0.5-per-unit-of-airbnb-intensity-relative-to-the-counterfactual-trend.-in-other-words-the-model-suggests-that-local-law-18-is-responsible-for-a-median-monthly-rent-decrease-of-sim50-across-all-82-zip-codes-tested-with-some-estimated-zip-code-monthly-savings-as-high-as-sim300.">C. ConclusionThis study set out to estimate whether NYC’s Local Law 18, an effective airbnb ban that had a sizeable impact on NYC airbnb rental supply, had a measurable effect on rent prices across the city’s zip codes. An initial Two-Way Fixed Effects model found no significant relationship (<span class="math inline">\(p=0.23\)</span>), but with further testing a violation of the parallel trends assumption revealed itself. Zip codes with higher concentrations of Airbnb’s were already becoming more expensive at a faster rate than other zip codes, affecting our model’s ability to capture the effect of the law change. To fix this issue I introduced a group-specific linear time trend to absorb divergent trajectories which led to my model to identify a highly significant effect (<span class="math inline">\(p&lt;0.001\)</span>). This was confirmed with a placebo test (<span class="math inline">\(p=0.077\)</span>), as well as an outlier sensitivity test showing a max coefficient shift of <span class="math inline">\(2.4\%\)</span>. My end result suggests Local Law 18 acted as a brake for rent growth, reducing rents by approximately <strong>0.5% per unit of Airbnb intensity</strong> relative to the counterfactual trend. In other words, the model suggests that Local Law 18 is responsible for a median monthly rent decrease of <span class="math inline">\(\sim\$50\)</span> across all 82 zip codes tested, with some estimated zip code monthly savings as high as <span class="math inline">\(\sim\$300\)</span>.</h3>
+<section id="c.-conclusion" class="level3">
+<h3 class="anchored" data-anchor-id="c.-conclusion">C. Conclusion</h3>
+<p>This study set out to estimate whether NYC’s Local Law 18, an effective airbnb ban that had a sizeable impact on NYC airbnb rental supply, had a measurable effect on rent prices across the city’s zip codes. An initial Two-Way Fixed Effects model found no significant relationship (<span class="math inline">\(p=0.23\)</span>), but with further testing a violation of the parallel trends assumption revealed itself. Zip codes with higher concentrations of Airbnb’s were already becoming more expensive at a faster rate than other zip codes, affecting our model’s ability to capture the effect of the law change. To fix this issue I introduced a group-specific linear time trend to absorb divergent trajectories which led to my model to identify a highly significant effect (<span class="math inline">\(p&lt;0.001\)</span>). This was confirmed with a placebo test (<span class="math inline">\(p=0.077\)</span>), as well as an outlier sensitivity test showing a max coefficient shift of <span class="math inline">\(2.4\%\)</span>. My end result suggests Local Law 18 acted as a brake for rent growth, reducing rents by approximately <strong>0.5% per unit of Airbnb intensity</strong> relative to the counterfactual trend. In other words, the model suggests that Local Law 18 is responsible for a median monthly rent decrease of <span class="math inline">\(\sim\$50\)</span> across all 82 zip codes tested, with some estimated zip code monthly savings as high as <span class="math inline">\(\sim\$300\)</span>.</p>
 </section>
 </section>
 </section>
@@ -2214,5 +2231,5 @@ Max estimated monthly savings:    $297.87  (zip 11211)</code></pre>
 
 
 
-<script src="Airbnb_law_Effect_files/libs/quarto-html/zenscroll-min.js"></script>
+<script src="Airbnb_Law_Effect_files/libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

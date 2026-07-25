@@ -1,0 +1,28 @@
+# Python 3.9-3.13. On 3.14+ these packages have no prebuilt wheels yet and pip
+# will try to compile statsmodels from source, which fails under Cython 3.x
+# ("cimported module has no attribute 'zcopy'"). Install with:
+#   pip install --only-binary=:all: -r requirements.txt
+# so a missing wheel errors out instead of starting a source build.
+
+# Core data handling
+pandas>=2.0
+numpy>=1.24
+
+# Plotting
+matplotlib>=3.7
+
+# Spatial: reads nyc_zip_geo.geojson, spatial joins in spatial_helpers.py
+# geopandas 1.x pulls in pyogrio + shapely for vector IO
+geopandas>=1.0
+
+# Regression models (smf.ols) -- 0.14.4+ ships wheels built against Cython 3
+statsmodels>=0.14.4
+
+# Regression tables
+stargazer>=0.0.7
+
+# HTML display helper in the notebook
+ipython>=8.0
+
+# Notebook environment itself
+jupyterlab>=4.0

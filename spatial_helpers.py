@@ -59,3 +59,12 @@ def perform_spatial_join(listings_df, geo_map):
     joined_data['zip'] = joined_data['zip'].astype(str).str.split(',').str[0].str.strip()
     
     return joined_data
+
+
+def snapshot_listing_counts(listings_df, geo_map, snapshot_label):
+    """Spatially join a listings snapshot to zip and return tidy per-zip counts."""
+    joined = perform_spatial_join(listings_df, geo_map)
+    counts = joined['zip'].value_counts().reset_index()
+    counts.columns = ['zip', 'listing_count']
+    counts['snapshot'] = snapshot_label
+    return counts
